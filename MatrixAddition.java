@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class MatrixAddition {
 	public static void main(String[] args) {
-		int n1=Integer.parseInt(args[0]);
+		Scanner sc1=new Scanner(System.in);
+		int n1=scl.nextInt();
 		int[][]matrix1=new int[n1][n1];
 		int[][]matrix2=new int[n1][n1];
-		Scanner sc1=new Scanner(System.in);
 		System.out.println("Enter elements of the first matrix");
 		for(int i=0;i<n1;i++) {
 			for(int j=0;j<n1;j++) {
