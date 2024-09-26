@@ -19,7 +19,7 @@ class Employee{
       
 public class TestEmployee{
   public static void main(String[] args){
-    Employee emp1=new Employee(1,"fein",5000);
+    Employee emp1=new Employee(1,"abdul",5000);
     emp1.getEmpDetails();
     
     emp1.raiseSalary(10);
